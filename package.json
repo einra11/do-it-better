@@ -1,0 +1,28 @@
+{
+  "name": "dib-api",
+  "version": "1.0.0",
+  "description": "Do it better!",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -L src/app.js --exec babel-node --presets env",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kenneth Villacarillo",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.16.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0"
+  }
+}
